@@ -8,6 +8,9 @@ install or update to python 3.6
 #### install rasa_core, this will install rasa nlu too, and now support chinese.
 ```
 pip install rasa_core
+
+pip install pyhanlp
+hanlp
 ```
 
 #### install sklearn and MITIE
