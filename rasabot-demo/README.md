@@ -104,3 +104,5 @@ $ ./wordrep -e /path/to/your/folder_of_cutted_text_files
 ```
 /path/to/your/folder_of_cutted_text_files above is a directory path in which has word cutted data files to train. This process may cost one or two days.
 
+Reference
+[zqhZY/_rasa_chatbot](https://github.com/zqhZY/_rasa_chatbot)
