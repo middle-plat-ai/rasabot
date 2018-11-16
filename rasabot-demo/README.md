@@ -1,5 +1,5 @@
 # rasa_chatbot
-A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain， Implement by rasa nlu and rasa core. This is a demo with toy dataset.
+A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain， Implement by rasa nlu and rasa core. 
 
 [rasa_core官方文档](https://rasa.com/docs/core/)
 
