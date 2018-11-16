@@ -68,3 +68,6 @@ $ cmake --build . --config Release
 $ ./wordrep -e /path/to/your/folder_of_cutted_text_files
 ```
 /path/to/your/folder_of_cutted_text_files是训练语料所在目录，训练大概需要2天(10G语料)
+
+Reference
+1 zqhZY/_rasa_chatbot
