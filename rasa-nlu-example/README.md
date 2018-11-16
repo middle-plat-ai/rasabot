@@ -12,7 +12,6 @@ rasa-nlu-example/
 │   ├── mobile_nlu_data.json  # rasa nlu train data
 │   ├── mobile_raw_data.txt   # raw data
 │   └── total_word_feature_extractor.dat  # mitie word vector feature
-├── __init__.py               # init file
 ├── requirements.txt
 ├── train_nlu.py              # train nlu model
 ├── trainsfer_raw_to_rasa.py.py               # 把raw data变成rasa nlu train data
