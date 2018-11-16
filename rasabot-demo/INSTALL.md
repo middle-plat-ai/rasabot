@@ -1,7 +1,9 @@
 ## install dependency
 
 #### python3
-install or update to python 3
+install or update to python 3.6
+
+直接安装anaconda
 
 #### install rasa_core, this will install rasa nlu too, and now support chinese.
 ```
