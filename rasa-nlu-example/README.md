@@ -24,6 +24,8 @@ rasa-nlu-example/
 
 ### 配置hanlp分词
 
+[pyhanlp](https://github.com/hankcs/pyhanlp)
+
 在sample_configs目录，用registry.py替换掉site-packages/rasa_nlu的registry.py，hanlp_tokenizer.py放到anaconda安装目录的site-packages/rasa_nlu/tokenizers目录下
 
 ### train nlu model
