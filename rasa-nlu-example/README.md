@@ -41,7 +41,6 @@ sh start-server.sh
 
 ### test rasa nlu
 ```
-$python -m rasa_nlu.server --path models
 $ curl -X POST localhost:5000/parse -d '{"q":"hello", "project": "nlu", "model": "current"}' | python -m json.tool
 {
     "intent": {
