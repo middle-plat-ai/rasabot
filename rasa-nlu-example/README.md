@@ -61,7 +61,7 @@ $ curl -X POST localhost:5000/parse -d '{"q":"hello", "project": "nlu", "model":
 
 You can train your own MITIE model using following method:
 ```
-git clone https://github.com/mit-nlp/MITIE.git
+ git clone https://github.com/mit-nlp/MITIE.git
  cd MITIE/tools/wordrep
  mkdir build
  cd build
