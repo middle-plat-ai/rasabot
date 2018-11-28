@@ -33,7 +33,8 @@ rasa_chatbot/
 python -m rasa_nlu.train --config  mobile_nlu_model_config.json --data data/mobile_nlu_data.json  --path models
 ```
 or 
-python train_nlu.py
+
+    python train_nlu.py
 
 ### test rasa nlu
 ```
