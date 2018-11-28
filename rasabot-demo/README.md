@@ -3,6 +3,10 @@ A Chinese task oriented chatbot in  IVR(Interactive Voice Response) domain， Im
 
 [rasa_core官方文档](https://rasa.com/docs/core/)
 
+[rasa_nlu官方文档](https://rasa.com/docs/nlu/)
+
+[rasa-github地址](https://github.com/rasaHQ/)
+
 ### install dependency:
 - [follow here](https://github.com/algteam/rasabot/tree/master/rasabot-demo/INSTALL.md)
 
