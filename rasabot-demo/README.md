@@ -97,13 +97,11 @@ BOT：您还想干什么
 
 You can train your own MITIE model using following method:
 ```
-$ git clone https://github.com/mit-nlp/MITIE.git
-$ cd MITIE/tools/wordrep
-$ mkdir build
-$ cd build
-$ cmake ..
-$ cmake --build . --config Release
-$ ./wordrep -e /path/to/your/folder_of_cutted_text_files
+ git clone https://github.com/mit-nlp/MITIE.git
+ cd MITIE/tools/wordrep && mkdir build && cd build
+ cmake ..
+ cmake --build . --config Release
+ ./wordrep -e /path/to/your/folder_of_cutted_text_files
 ```
 /path/to/your/folder_of_cutted_text_files above is a directory path in which has word cutted data files to train. This process may cost one or two days.
 
