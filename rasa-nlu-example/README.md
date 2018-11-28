@@ -2,6 +2,8 @@
 
 [rasa-nlu官方文档](https://rasa.com/docs/nlu/)
 
+[rasa-nlu github地址](https://github.com/RasaHQ/rasa_nlu)
+
 ### install dependency:
 - [follow here](https://github.com/algteam/rasabot/tree/master/rasa-nlu-example/INSTALL.md)
 
