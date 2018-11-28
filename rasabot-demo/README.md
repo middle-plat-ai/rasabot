@@ -37,8 +37,7 @@ python train_nlu.py
 
 ### test rasa nlu
 ```
-$python -m rasa_nlu.server --path projects
-$ curl -X POST localhost:5000/parse -d '{"q":"hello"}' | python -m json.tool
+$ curl -X POST localhost:5000/parse -d '{"q":"hello", "project": "nlu", "model": "current"}' | python -m json.tool
 {
     "intent": {
         "name": "greet",
