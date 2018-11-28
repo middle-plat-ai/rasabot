@@ -36,7 +36,7 @@ python -m rasa_nlu.train --config  mobile_nlu_model_config.json --data data/mobi
 ```
 or 
 
-python train_nlu.py
+    python train_nlu.py
 
 ## start nlu -server
 sh start-server.sh
