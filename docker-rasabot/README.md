@@ -20,15 +20,15 @@
 ```
 
 ## 运行
-sh create_rasabot.sh +用户密码
+  sh create_rasabot.sh +用户密码
 
 ## 测试结果
-curl --request POST \
-  --url http://localhost:5005/webhooks/rest/webhook \
-  --header 'content-type: application/json' \
-  --data '{
-    "message": "你好"
-  }'
+  curl --request POST \
+    --url http://localhost:5005/webhooks/rest/webhook \
+    --header 'content-type: application/json' \
+    --data '{
+      "message": "你好"
+    }'
   
 ## Reference
 
