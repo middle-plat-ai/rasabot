@@ -37,3 +37,5 @@
 ## Reference
 
 1 [Development with Docker](https://rasa.com/docs/core/0.12.3/docker_walkthrough/#)
+
+2 [rasa_core官方文档](https://rasa.com/docs/core/)
