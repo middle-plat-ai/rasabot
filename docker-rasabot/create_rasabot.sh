@@ -70,7 +70,7 @@ services:
       - --endpoints
       - config/endpoints.yml
       - -u
-      - current/
+      - current/nlu
   action_server:
     image: rasa/rasa_core_sdk:latest
     volumes:
@@ -90,4 +90,4 @@ EOF
 
 
 ##启动nlu和core的服务
-echo "$1" | sudo -S sudo docker-compose up
+#echo "$1" | sudo -S sudo docker-compose up
