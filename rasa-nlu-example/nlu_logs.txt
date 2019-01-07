@@ -1,0 +1,280 @@
+nohup: ignoring input
+2019-01-04 18:04:18+0800 [-] Log opened.
+2019-01-04 18:04:18+0800 [-] Site starting on 5000
+2019-01-04 18:04:18+0800 [-] Starting factory <twisted.web.server.Site object at 0x7f1df789a160>
+2019-01-04 18:06:38+0800 [-] "10.15.83.36" - - [04/Jan/2019:10:06:37 +0000] "POST /parse HTTP/1.1" 404 54 "-" "PostmanRuntime/7.1.1"
+2019-01-04 18:07:38+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.15.83.36', port=45600)
+2019-01-04 18:08:57.458570: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-01-04 18:08:57+0800 [-] Building prefix dict from the default dictionary ...
+2019-01-04 18:08:57+0800 [-] Loading model from cache /tmp/jieba.cache
+2019-01-04 18:08:58+0800 [-] Loading model cost 0.598 seconds.
+2019-01-04 18:08:58+0800 [-] Prefix dict has been built succesfully.
+2019-01-04 18:08:58+0800 [-] "10.15.83.36" - - [04/Jan/2019:10:08:58 +0000] "POST /parse HTTP/1.1" 200 1957 "-" "PostmanRuntime/7.1.1"
+2019-01-04 18:09:40+0800 [-] "10.15.83.36" - - [04/Jan/2019:10:09:40 +0000] "POST /parse HTTP/1.1" 200 2469 "-" "PostmanRuntime/7.1.1"
+2019-01-04 18:10:40+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.15.83.36', port=48960)
+nohup: ignoring input
+2019-01-04 18:26:26+0800 [-] Log opened.
+2019-01-04 18:26:26+0800 [-] Site starting on 5000
+2019-01-04 18:26:26+0800 [-] Starting factory <twisted.web.server.Site object at 0x7f2038a09160>
+2019-01-04 18:26:40+0800 [-] server config:
+2019-01-04 18:26:40+0800 [-]                         client	=	0d2674ca-ba26-4d9e-abce-1c16c046bf16
+2019-01-04 18:26:40+0800 [-]                    num_process	=	3                             
+2019-01-04 18:26:40+0800 [-]           ventilator -> worker	=	['ipc://tmpuxrO5i/socket', 'ipc://tmpI99g6G/socket', 'ipc://tmpijfM64/socket', 'ipc://tmp0EYj7s/socket', 'ipc://tmpSvQT7Q/socket', 'ipc://tmp8jTv8e/socket', 'ipc://tmpKgma9C/socket', 'ipc://tmpQ8QQ90/socket']
+2019-01-04 18:26:40+0800 [-]                 worker -> sink	=	ipc://tmpLxAxil/socket        
+2019-01-04 18:26:40+0800 [-]            ventilator <-> sink	=	ipc://tmp4Meu5U/socket        
+2019-01-04 18:26:40+0800 [-]            server_current_time	=	2019-01-04 18:26:40.213750    
+2019-01-04 18:26:40+0800 [-]                      statistic	=	{'num_data_request': 8, 'num_total_seq': 1019, 'num_sys_request': 2, 'num_total_request': 10, 'num_total_client': 2, 'num_active_client': 0, 'avg_request_per_client': 5.0, 'min_request_per_client': 1, 'max_request_per_client': 9, 'num_min_request_per_client': 1, 'num_max_request_per_client': 1, 'avg_size_per_request': 83.66666666666667, 'min_size_per_request': 0, 'max_size_per_request': 128, 'num_min_size_per_request': 1, 'num_max_size_per_request': 1, 'avg_last_two_interval': 17.56129684575717, 'min_last_two_interval': 4.369577927980572, 'max_last_two_interval': 109.57107853807975, 'num_min_last_two_interval': 1, 'num_max_last_two_interval': 1, 'avg_request_per_second': 0.1992872432720423, 'min_request_per_second': 0.009126495908794632, 'max_request_per_second': 0.22885505567860562, 'num_min_request_per_second': 1, 'num_max_request_per_second': 1}
+2019-01-04 18:26:40+0800 [-]                     device_map	=	[]                            
+2019-01-04 18:26:40+0800 [-]          num_concurrent_socket	=	8                             
+2019-01-04 18:26:40+0800 [-]                      ckpt_name	=	bert_model.ckpt               
+2019-01-04 18:26:40+0800 [-]                    config_name	=	bert_config.json              
+2019-01-04 18:26:40+0800 [-]                            cpu	=	False                         
+2019-01-04 18:26:40+0800 [-]            gpu_memory_fraction	=	0.5                           
+2019-01-04 18:26:40+0800 [-]                   mask_cls_sep	=	False                         
+2019-01-04 18:26:40+0800 [-]                 max_batch_size	=	256                           
+2019-01-04 18:26:40+0800 [-]                    max_seq_len	=	25                            
+2019-01-04 18:26:40+0800 [-]                      model_dir	=	tmp/chinese_L-12_H-768_A-12/  
+2019-01-04 18:26:40+0800 [-]                     num_worker	=	2                             
+2019-01-04 18:26:40+0800 [-]                  pooling_layer	=	[-2]                          
+2019-01-04 18:26:40+0800 [-]               pooling_strategy	=	2                             
+2019-01-04 18:26:40+0800 [-]                           port	=	5555                          
+2019-01-04 18:26:40+0800 [-]                       port_out	=	5556                          
+2019-01-04 18:26:40+0800 [-]                  prefetch_size	=	10                            
+2019-01-04 18:26:40+0800 [-]            priority_batch_size	=	16                            
+2019-01-04 18:26:40+0800 [-]                tuned_model_dir	=	None                          
+2019-01-04 18:26:40+0800 [-]                        verbose	=	False                         
+2019-01-04 18:26:40+0800 [-]                            xla	=	False                         
+2019-01-04 18:26:40+0800 [-]             tensorflow_version	=	['1', '12', '0']              
+2019-01-04 18:26:40+0800 [-]                 python_version	=	3.6.6 | packaged by conda-forge | (default, Oct 12 2018, 14:08:43) 
+2019-01-04 18:26:40+0800 [-] [GCC 4.8.2 20140120 (Red Hat 4.8.2-15)]
+2019-01-04 18:26:40+0800 [-]                 server_version	=	1.6.6                         
+2019-01-04 18:26:40+0800 [-]                  pyzmq_version	=	17.1.2                        
+2019-01-04 18:26:40+0800 [-]                    zmq_version	=	4.2.5                         
+2019-01-04 18:26:40+0800 [-]              server_start_time	=	2019-01-04 18:20:18.559748    
+2019-01-04 18:26:40.321990: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-01-04 18:26:40+0800 [-] Building prefix dict from the default dictionary ...
+2019-01-04 18:26:40+0800 [-] Loading model from cache /tmp/jieba.cache
+2019-01-04 18:26:41+0800 [-] Loading model cost 0.588 seconds.
+2019-01-04 18:26:41+0800 [-] Prefix dict has been built succesfully.
+2019-01-04 18:26:41+0800 [-] "10.15.83.36" - - [04/Jan/2019:10:26:40 +0000] "POST /parse HTTP/1.1" 200 1306 "-" "PostmanRuntime/7.1.1"
+2019-01-04 18:27:41+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.15.83.36', port=51186)
+2019-01-04 18:42:19+0800 [-] "10.15.83.36" - - [04/Jan/2019:10:42:18 +0000] "POST /parse HTTP/1.1" 200 1460 "-" "PostmanRuntime/7.1.1"
+2019-01-04 18:43:19+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.15.83.36', port=49336)
+2019-01-07 09:09:26+0800 [-] "10.15.83.36" - - [07/Jan/2019:01:09:26 +0000] "POST /parse HTTP/1.1" 200 1460 "-" "PostmanRuntime/7.1.1"
+2019-01-07 09:10:26+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.15.83.36', port=33062)
+nohup: ignoring input
+2019-01-07 09:14:48+0800 [-] Log opened.
+2019-01-07 09:14:48+0800 [-] Site starting on 5000
+2019-01-07 09:14:48+0800 [-] Starting factory <twisted.web.server.Site object at 0x7fd95d5ad160>
+2019-01-07 09:14:58.265622: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-01-07 09:14:58+0800 [-] [1, 3, 120, 100]
+2019-01-07 09:14:58+0800 [-] /data/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:112: builtins.UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+2019-01-07 09:14:59+0800 [-] server config:
+2019-01-07 09:14:59+0800 [-]                         client	=	5037d0be-f272-4c2e-872d-2c8b8d4ab78a
+2019-01-07 09:14:59+0800 [-]                    num_process	=	3                             
+2019-01-07 09:14:59+0800 [-]           ventilator -> worker	=	['ipc://tmpuxrO5i/socket', 'ipc://tmpI99g6G/socket', 'ipc://tmpijfM64/socket', 'ipc://tmp0EYj7s/socket', 'ipc://tmpSvQT7Q/socket', 'ipc://tmp8jTv8e/socket', 'ipc://tmpKgma9C/socket', 'ipc://tmpQ8QQ90/socket']
+2019-01-07 09:14:59+0800 [-]                 worker -> sink	=	ipc://tmpLxAxil/socket        
+2019-01-07 09:14:59+0800 [-]            ventilator <-> sink	=	ipc://tmp4Meu5U/socket        
+2019-01-07 09:14:59+0800 [-]            server_current_time	=	2019-01-07 09:14:59.497036    
+2019-01-07 09:14:59+0800 [-]                      statistic	=	{'num_data_request': 27, 'num_total_seq': 3060, 'num_sys_request': 5, 'num_total_request': 32, 'num_total_client': 5, 'num_active_client': 1, 'avg_request_per_client': 6.4, 'min_request_per_client': 1, 'max_request_per_client': 9, 'num_min_request_per_client': 1, 'num_max_request_per_client': 3, 'avg_size_per_request': 63.0, 'min_size_per_request': 0, 'max_size_per_request': 128, 'num_min_size_per_request': 1, 'num_max_size_per_request': 1, 'avg_last_two_interval': 8384.787869621408, 'min_last_two_interval': 4.355684984009713, 'max_last_two_interval': 224827.29762222397, 'num_min_last_two_interval': 1, 'num_max_last_two_interval': 1, 'avg_request_per_second': 0.17524657673522165, 'min_request_per_second': 4.447858469927857e-06, 'max_request_per_second': 0.22958501445148818, 'num_min_request_per_second': 1, 'num_max_request_per_second': 1}
+2019-01-07 09:14:59+0800 [-]                     device_map	=	[]                            
+2019-01-07 09:14:59+0800 [-]          num_concurrent_socket	=	8                             
+2019-01-07 09:14:59+0800 [-]                      ckpt_name	=	bert_model.ckpt               
+2019-01-07 09:14:59+0800 [-]                    config_name	=	bert_config.json              
+2019-01-07 09:14:59+0800 [-]                            cpu	=	False                         
+2019-01-07 09:14:59+0800 [-]            gpu_memory_fraction	=	0.5                           
+2019-01-07 09:14:59+0800 [-]                   mask_cls_sep	=	False                         
+2019-01-07 09:14:59+0800 [-]                 max_batch_size	=	256                           
+2019-01-07 09:14:59+0800 [-]                    max_seq_len	=	25                            
+2019-01-07 09:14:59+0800 [-]                      model_dir	=	tmp/chinese_L-12_H-768_A-12/  
+2019-01-07 09:14:59+0800 [-]                     num_worker	=	2                             
+2019-01-07 09:14:59+0800 [-]                  pooling_layer	=	[-2]                          
+2019-01-07 09:14:59+0800 [-]               pooling_strategy	=	2                             
+2019-01-07 09:14:59+0800 [-]                           port	=	5555                          
+2019-01-07 09:14:59+0800 [-]                       port_out	=	5556                          
+2019-01-07 09:14:59+0800 [-]                  prefetch_size	=	10                            
+2019-01-07 09:14:59+0800 [-]            priority_batch_size	=	16                            
+2019-01-07 09:14:59+0800 [-]                tuned_model_dir	=	None                          
+2019-01-07 09:14:59+0800 [-]                        verbose	=	False                         
+2019-01-07 09:14:59+0800 [-]                            xla	=	False                         
+2019-01-07 09:14:59+0800 [-]             tensorflow_version	=	['1', '12', '0']              
+2019-01-07 09:14:59+0800 [-]                 python_version	=	3.6.6 | packaged by conda-forge | (default, Oct 12 2018, 14:08:43) 
+2019-01-07 09:14:59+0800 [-] [GCC 4.8.2 20140120 (Red Hat 4.8.2-15)]
+2019-01-07 09:14:59+0800 [-]                 server_version	=	1.6.6                         
+2019-01-07 09:14:59+0800 [-]                  pyzmq_version	=	17.1.2                        
+2019-01-07 09:14:59+0800 [-]                    zmq_version	=	4.2.5                         
+2019-01-07 09:14:59+0800 [-]              server_start_time	=	2019-01-04 18:20:18.559748    
+2019-01-07 09:14:59+0800 [-] Building prefix dict from the default dictionary ...
+2019-01-07 09:14:59+0800 [-] Loading model from cache /tmp/jieba.cache
+2019-01-07 09:15:00+0800 [-] Loading model cost 0.591 seconds.
+2019-01-07 09:15:00+0800 [-] Prefix dict has been built succesfully.
+2019-01-07 09:15:00+0800 [-] 2019-01-07 09:15:00 ERROR    __main__  - must be str, not list
+2019-01-07 09:15:00+0800 [-] Traceback (most recent call last):
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/server.py", line 237, in parse
+2019-01-07 09:15:00+0800 [-]     self.data_router.parse, data))
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/threadpool.py", line 250, in inContext
+2019-01-07 09:15:00+0800 [-]     result = inContext.theWork()
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/threadpool.py", line 266, in <lambda>
+2019-01-07 09:15:00+0800 [-]     inContext.theWork = lambda: context.call(ctx, func, *args, **kw)
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/context.py", line 122, in callWithContext
+2019-01-07 09:15:00+0800 [-]     return self.currentContext().callWithContext(ctx, func, *args, **kw)
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/context.py", line 85, in callWithContext
+2019-01-07 09:15:00+0800 [-]     return func(*args,**kw)
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/data_router.py", line 249, in parse
+2019-01-07 09:15:00+0800 [-]     model)
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/project.py", line 124, in parse
+2019-01-07 09:15:00+0800 [-]     response = self._models[model_name].parse(text, time)
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/model.py", line 357, in parse
+2019-01-07 09:15:00+0800 [-]     component.process(message, **self.context)
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/extractors/hanlp_extractor.py", line 46, in process
+2019-01-07 09:15:00+0800 [-]     extracted = self.add_extractor_name(self.ner_hanlp(message))
+2019-01-07 09:15:00+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/extractors/hanlp_extractor.py", line 65, in ner_hanlp
+2019-01-07 09:15:00+0800 [-]     if pos.find(part_of_speech) >= 0:
+2019-01-07 09:15:00+0800 [-] TypeError: must be str, not list
+2019-01-07 09:15:00+0800 [-] "10.15.83.36" - - [07/Jan/2019:01:15:00 +0000] "POST /parse HTTP/1.1" 500 38 "-" "PostmanRuntime/7.1.1"
+2019-01-07 09:15:35+0800 [-] 2019-01-07 09:15:35 ERROR    __main__  - must be str, not list
+2019-01-07 09:15:35+0800 [-] Traceback (most recent call last):
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/server.py", line 237, in parse
+2019-01-07 09:15:35+0800 [-]     self.data_router.parse, data))
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/threadpool.py", line 250, in inContext
+2019-01-07 09:15:35+0800 [-]     result = inContext.theWork()
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/threadpool.py", line 266, in <lambda>
+2019-01-07 09:15:35+0800 [-]     inContext.theWork = lambda: context.call(ctx, func, *args, **kw)
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/context.py", line 122, in callWithContext
+2019-01-07 09:15:35+0800 [-]     return self.currentContext().callWithContext(ctx, func, *args, **kw)
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/context.py", line 85, in callWithContext
+2019-01-07 09:15:35+0800 [-]     return func(*args,**kw)
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/data_router.py", line 249, in parse
+2019-01-07 09:15:35+0800 [-]     model)
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/project.py", line 124, in parse
+2019-01-07 09:15:35+0800 [-]     response = self._models[model_name].parse(text, time)
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/model.py", line 357, in parse
+2019-01-07 09:15:35+0800 [-]     component.process(message, **self.context)
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/extractors/hanlp_extractor.py", line 46, in process
+2019-01-07 09:15:35+0800 [-]     extracted = self.add_extractor_name(self.ner_hanlp(message))
+2019-01-07 09:15:35+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/extractors/hanlp_extractor.py", line 65, in ner_hanlp
+2019-01-07 09:15:35+0800 [-]     if pos.find(part_of_speech) >= 0:
+2019-01-07 09:15:35+0800 [-] TypeError: must be str, not list
+2019-01-07 09:15:35+0800 [-] "10.15.83.36" - - [07/Jan/2019:01:15:34 +0000] "POST /parse HTTP/1.1" 500 38 "-" "PostmanRuntime/7.1.1"
+2019-01-07 09:16:35+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.15.83.36', port=43100)
+2019-01-07 09:19:17+0800 [-] 2019-01-07 09:19:17 ERROR    __main__  - must be str, not list
+2019-01-07 09:19:17+0800 [-] Traceback (most recent call last):
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/server.py", line 237, in parse
+2019-01-07 09:19:17+0800 [-]     self.data_router.parse, data))
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/threadpool.py", line 250, in inContext
+2019-01-07 09:19:17+0800 [-]     result = inContext.theWork()
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/threadpool.py", line 266, in <lambda>
+2019-01-07 09:19:17+0800 [-]     inContext.theWork = lambda: context.call(ctx, func, *args, **kw)
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/context.py", line 122, in callWithContext
+2019-01-07 09:19:17+0800 [-]     return self.currentContext().callWithContext(ctx, func, *args, **kw)
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/twisted/python/context.py", line 85, in callWithContext
+2019-01-07 09:19:17+0800 [-]     return func(*args,**kw)
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/data_router.py", line 249, in parse
+2019-01-07 09:19:17+0800 [-]     model)
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/project.py", line 124, in parse
+2019-01-07 09:19:17+0800 [-]     response = self._models[model_name].parse(text, time)
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/model.py", line 357, in parse
+2019-01-07 09:19:17+0800 [-]     component.process(message, **self.context)
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/extractors/hanlp_extractor.py", line 46, in process
+2019-01-07 09:19:17+0800 [-]     extracted = self.add_extractor_name(self.ner_hanlp(message))
+2019-01-07 09:19:17+0800 [-]   File "/data/anaconda3/lib/python3.6/site-packages/rasa_nlu_gao/extractors/hanlp_extractor.py", line 65, in ner_hanlp
+2019-01-07 09:19:17+0800 [-]     if pos.find(part_of_speech) >= 0:
+2019-01-07 09:19:17+0800 [-] TypeError: must be str, not list
+2019-01-07 09:19:17+0800 [-] "10.15.83.36" - - [07/Jan/2019:01:19:16 +0000] "POST /parse HTTP/1.1" 500 38 "-" "PostmanRuntime/7.1.1"
+2019-01-07 09:20:17+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.15.83.36', port=50410)
+nohup: ignoring input
+2019-01-07 09:20:51+0800 [-] Log opened.
+2019-01-07 09:20:51+0800 [-] Site starting on 5000
+2019-01-07 09:20:51+0800 [-] Starting factory <twisted.web.server.Site object at 0x7fee0fb04198>
+2019-01-07 09:21:04.026977: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-01-07 09:21:04+0800 [-] [1, 3, 120, 100]
+2019-01-07 09:21:04+0800 [-] /data/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:112: builtins.UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+2019-01-07 09:21:05+0800 [-] server config:
+2019-01-07 09:21:05+0800 [-]                         client	=	bd3f3d96-00d4-46ac-9f7e-15294d002cd5
+2019-01-07 09:21:05+0800 [-]                    num_process	=	3                             
+2019-01-07 09:21:05+0800 [-]           ventilator -> worker	=	['ipc://tmpuxrO5i/socket', 'ipc://tmpI99g6G/socket', 'ipc://tmpijfM64/socket', 'ipc://tmp0EYj7s/socket', 'ipc://tmpSvQT7Q/socket', 'ipc://tmp8jTv8e/socket', 'ipc://tmpKgma9C/socket', 'ipc://tmpQ8QQ90/socket']
+2019-01-07 09:21:05+0800 [-]                 worker -> sink	=	ipc://tmpLxAxil/socket        
+2019-01-07 09:21:05+0800 [-]            ventilator <-> sink	=	ipc://tmp4Meu5U/socket        
+2019-01-07 09:21:05+0800 [-]            server_current_time	=	2019-01-07 09:21:05.232692    
+2019-01-07 09:21:05+0800 [-]                      statistic	=	{'num_data_request': 35, 'num_total_seq': 4079, 'num_sys_request': 7, 'num_total_request': 42, 'num_total_client': 7, 'num_active_client': 1, 'avg_request_per_client': 6.0, 'min_request_per_client': 1, 'max_request_per_client': 9, 'num_min_request_per_client': 2, 'num_max_request_per_client': 4, 'avg_size_per_request': 63.0, 'min_size_per_request': 0, 'max_size_per_request': 128, 'num_min_size_per_request': 1, 'num_max_size_per_request': 1, 'avg_last_two_interval': 6479.63018018146, 'min_last_two_interval': 4.328994955052622, 'max_last_two_interval': 224827.29762222397, 'num_min_last_two_interval': 1, 'num_max_last_two_interval': 1, 'avg_request_per_second': 0.1810318422076793, 'min_request_per_second': 4.447858469927857e-06, 'max_request_per_second': 0.23100050020452018, 'num_min_request_per_second': 1, 'num_max_request_per_second': 1}
+2019-01-07 09:21:05+0800 [-]                     device_map	=	[]                            
+2019-01-07 09:21:05+0800 [-]          num_concurrent_socket	=	8                             
+2019-01-07 09:21:05+0800 [-]                      ckpt_name	=	bert_model.ckpt               
+2019-01-07 09:21:05+0800 [-]                    config_name	=	bert_config.json              
+2019-01-07 09:21:05+0800 [-]                            cpu	=	False                         
+2019-01-07 09:21:05+0800 [-]            gpu_memory_fraction	=	0.5                           
+2019-01-07 09:21:05+0800 [-]                   mask_cls_sep	=	False                         
+2019-01-07 09:21:05+0800 [-]                 max_batch_size	=	256                           
+2019-01-07 09:21:05+0800 [-]                    max_seq_len	=	25                            
+2019-01-07 09:21:05+0800 [-]                      model_dir	=	tmp/chinese_L-12_H-768_A-12/  
+2019-01-07 09:21:05+0800 [-]                     num_worker	=	2                             
+2019-01-07 09:21:05+0800 [-]                  pooling_layer	=	[-2]                          
+2019-01-07 09:21:05+0800 [-]               pooling_strategy	=	2                             
+2019-01-07 09:21:05+0800 [-]                           port	=	5555                          
+2019-01-07 09:21:05+0800 [-]                       port_out	=	5556                          
+2019-01-07 09:21:05+0800 [-]                  prefetch_size	=	10                            
+2019-01-07 09:21:05+0800 [-]            priority_batch_size	=	16                            
+2019-01-07 09:21:05+0800 [-]                tuned_model_dir	=	None                          
+2019-01-07 09:21:05+0800 [-]                        verbose	=	False                         
+2019-01-07 09:21:05+0800 [-]                            xla	=	False                         
+2019-01-07 09:21:05+0800 [-]             tensorflow_version	=	['1', '12', '0']              
+2019-01-07 09:21:05+0800 [-]                 python_version	=	3.6.6 | packaged by conda-forge | (default, Oct 12 2018, 14:08:43) 
+2019-01-07 09:21:05+0800 [-] [GCC 4.8.2 20140120 (Red Hat 4.8.2-15)]
+2019-01-07 09:21:05+0800 [-]                 server_version	=	1.6.6                         
+2019-01-07 09:21:05+0800 [-]                  pyzmq_version	=	17.1.2                        
+2019-01-07 09:21:05+0800 [-]                    zmq_version	=	4.2.5                         
+2019-01-07 09:21:05+0800 [-]              server_start_time	=	2019-01-04 18:20:18.559748    
+2019-01-07 09:21:05+0800 [-] Building prefix dict from the default dictionary ...
+2019-01-07 09:21:05+0800 [-] Loading model from cache /tmp/jieba.cache
+2019-01-07 09:21:06+0800 [-] Loading model cost 0.592 seconds.
+2019-01-07 09:21:06+0800 [-] Prefix dict has been built succesfully.
+2019-01-07 09:21:06+0800 [-] "10.15.83.36" - - [07/Jan/2019:01:21:06 +0000] "POST /parse HTTP/1.1" 200 1112 "-" "PostmanRuntime/7.1.1"
+2019-01-07 09:22:06+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.15.83.36', port=53996)
+nohup: ignoring input
+2019-01-07 09:25:46+0800 [-] Log opened.
+2019-01-07 09:25:46+0800 [-] Site starting on 5000
+2019-01-07 09:25:46+0800 [-] Starting factory <twisted.web.server.Site object at 0x7f6a9b74a160>
+2019-01-07 09:25:58.744555: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-01-07 09:25:58+0800 [-] [1, 3, 120, 100]
+2019-01-07 09:25:59+0800 [-] /data/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:112: builtins.UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+2019-01-07 09:26:00+0800 [-] server config:
+2019-01-07 09:26:00+0800 [-]                         client	=	942df48c-44ff-452e-af8c-dead7568dc78
+2019-01-07 09:26:00+0800 [-]                    num_process	=	3                             
+2019-01-07 09:26:00+0800 [-]           ventilator -> worker	=	['ipc://tmpuxrO5i/socket', 'ipc://tmpI99g6G/socket', 'ipc://tmpijfM64/socket', 'ipc://tmp0EYj7s/socket', 'ipc://tmpSvQT7Q/socket', 'ipc://tmp8jTv8e/socket', 'ipc://tmpKgma9C/socket', 'ipc://tmpQ8QQ90/socket']
+2019-01-07 09:26:00+0800 [-]                 worker -> sink	=	ipc://tmpLxAxil/socket        
+2019-01-07 09:26:00+0800 [-]            ventilator <-> sink	=	ipc://tmp4Meu5U/socket        
+2019-01-07 09:26:00+0800 [-]            server_current_time	=	2019-01-07 09:25:59.949660    
+2019-01-07 09:26:00+0800 [-]                      statistic	=	{'num_data_request': 44, 'num_total_seq': 5099, 'num_sys_request': 9, 'num_total_request': 53, 'num_total_client': 9, 'num_active_client': 1, 'avg_request_per_client': 5.888888888888889, 'min_request_per_client': 1, 'max_request_per_client': 9, 'num_min_request_per_client': 2, 'num_max_request_per_client': 5, 'avg_size_per_request': 63.0, 'min_size_per_request': 0, 'max_size_per_request': 128, 'num_min_size_per_request': 1, 'num_max_size_per_request': 1, 'avg_last_two_interval': 5161.091204040001, 'min_last_two_interval': 4.328994955052622, 'max_last_two_interval': 224827.29762222397, 'num_min_last_two_interval': 1, 'num_max_last_two_interval': 1, 'avg_request_per_second': 0.18038327926529157, 'min_request_per_second': 4.447858469927857e-06, 'max_request_per_second': 0.23100050020452018, 'num_min_request_per_second': 1, 'num_max_request_per_second': 1}
+2019-01-07 09:26:00+0800 [-]                     device_map	=	[]                            
+2019-01-07 09:26:00+0800 [-]          num_concurrent_socket	=	8                             
+2019-01-07 09:26:00+0800 [-]                      ckpt_name	=	bert_model.ckpt               
+2019-01-07 09:26:00+0800 [-]                    config_name	=	bert_config.json              
+2019-01-07 09:26:00+0800 [-]                            cpu	=	False                         
+2019-01-07 09:26:00+0800 [-]            gpu_memory_fraction	=	0.5                           
+2019-01-07 09:26:00+0800 [-]                   mask_cls_sep	=	False                         
+2019-01-07 09:26:00+0800 [-]                 max_batch_size	=	256                           
+2019-01-07 09:26:00+0800 [-]                    max_seq_len	=	25                            
+2019-01-07 09:26:00+0800 [-]                      model_dir	=	tmp/chinese_L-12_H-768_A-12/  
+2019-01-07 09:26:00+0800 [-]                     num_worker	=	2                             
+2019-01-07 09:26:00+0800 [-]                  pooling_layer	=	[-2]                          
+2019-01-07 09:26:00+0800 [-]               pooling_strategy	=	2                             
+2019-01-07 09:26:00+0800 [-]                           port	=	5555                          
+2019-01-07 09:26:00+0800 [-]                       port_out	=	5556                          
+2019-01-07 09:26:00+0800 [-]                  prefetch_size	=	10                            
+2019-01-07 09:26:00+0800 [-]            priority_batch_size	=	16                            
+2019-01-07 09:26:00+0800 [-]                tuned_model_dir	=	None                          
+2019-01-07 09:26:00+0800 [-]                        verbose	=	False                         
+2019-01-07 09:26:00+0800 [-]                            xla	=	False                         
+2019-01-07 09:26:00+0800 [-]             tensorflow_version	=	['1', '12', '0']              
+2019-01-07 09:26:00+0800 [-]                 python_version	=	3.6.6 | packaged by conda-forge | (default, Oct 12 2018, 14:08:43) 
+2019-01-07 09:26:00+0800 [-] [GCC 4.8.2 20140120 (Red Hat 4.8.2-15)]
+2019-01-07 09:26:00+0800 [-]                 server_version	=	1.6.6                         
+2019-01-07 09:26:00+0800 [-]                  pyzmq_version	=	17.1.2                        
+2019-01-07 09:26:00+0800 [-]                    zmq_version	=	4.2.5                         
+2019-01-07 09:26:00+0800 [-]              server_start_time	=	2019-01-04 18:20:18.559748    
+2019-01-07 09:26:00+0800 [-] Building prefix dict from the default dictionary ...
+2019-01-07 09:26:00+0800 [-] Loading model from cache /tmp/jieba.cache
+2019-01-07 09:26:00+0800 [-] Loading model cost 0.604 seconds.
+2019-01-07 09:26:00+0800 [-] Prefix dict has been built succesfully.
+2019-01-07 09:26:01+0800 [-] "10.15.83.36" - - [07/Jan/2019:01:26:00 +0000] "POST /parse HTTP/1.1" 200 1379 "-" "PostmanRuntime/7.1.1"
+2019-01-07 09:27:01+0800 [-] Timing out client: IPv4Address(type='TCP', host='10.15.83.36', port=34822)
