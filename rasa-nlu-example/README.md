@@ -4,6 +4,9 @@
 
 [rasa-nlu github地址](https://github.com/RasaHQ/rasa_nlu)
 
+
+[rasa-nlu_gao github地址](https://github.com/GaoQ1/rasa_nlu_gq)
+
 ### install dependency:
 - [follow here](https://github.com/algteam/rasabot/tree/master/rasa-nlu-example/INSTALL.md)
 
