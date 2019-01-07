@@ -43,7 +43,7 @@ sh start-server.sh
 
 ### test rasa nlu
 ```
-$ curl -X POST localhost:5000/parse -d '{"q":"hello", "project": "nlu", "model": "current"}' | python -m json.tool
+$ curl -X POST localhost:5000/parse -d '{"q":"hello", "project": "nlu_gao", "model": "current"}' | python -m json.tool
 {
     "intent": {
         "name": "greet",
@@ -74,3 +74,5 @@ Reference
 1 [zqhZY/_rasa_chatbot](https://github.com/zqhZY/_rasa_chatbot)
 
 2 [crownpku/Rasa_NLU_Chi](https://github.com/crownpku/Rasa_NLU_Chi)
+
+3 [bert-as-service](https://github.com/hanxiao/bert-as-service)
