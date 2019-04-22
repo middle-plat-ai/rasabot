@@ -7,7 +7,7 @@ install or update to python 3.6
 
 #### install rasa_core, this will install rasa nlu too, and now support chinese.
 ```
-pip install rasa_core==0.10.4
+pip install rasa_core
 
 pip install pyhanlp
 hanlp
