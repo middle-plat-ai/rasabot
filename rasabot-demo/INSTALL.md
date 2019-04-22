@@ -16,6 +16,6 @@ hanlp
 #### install sklearn and MITIE
 
 ```
-pip install -U scikit-learn==0.19.1 sklearn-crfsuite
+pip install -U scikit-learn sklearn-crfsuite
 pip install git+https://github.com/mit-nlp/MITIE.git
 ```
