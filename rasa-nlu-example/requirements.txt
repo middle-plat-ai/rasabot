@@ -1,2 +1,5 @@
-rasa_nlu
+rasa_nlu==0.13.8
 pyhanlp
+scikit-learn==0.19.2
+sklearn-crfsuite
+git+https://github.com/mit-nlp/MITIE.git
